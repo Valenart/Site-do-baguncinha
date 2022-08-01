@@ -13,9 +13,13 @@ a:hover {
 }
 
 .logo {
+    position: relative;
+    right: 220px;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-left: 50px;
+
 }
 
 nav {
@@ -46,10 +50,12 @@ main {
 }
 
 .mobile-menu div {
- width: 32px;
- height: 2px;
- background: #fff;
- margin: 8px;
+    position: relative;
+    left: 600px;
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
 }
 
 .mobile-menu {
@@ -86,5 +92,12 @@ main {
 
 .nav-list.active {
     transform: translate(0);
+
+}
+
+.logobaguncinha {
+    position: relative;
+    right: 50px;
+
 
 }
