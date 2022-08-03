@@ -14,7 +14,7 @@ a:hover {
 
 .logo {
     position: relative;
-    right: 220px;
+    right: 210px;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -33,7 +33,7 @@ nav {
 }
 
 main {
-    background:  url("1658183676011.jpg") no-repeat
+    background:  url("1658696855193a.png") no-repeat
     center center;
     background-size: cover;
     height: 92vh;
@@ -49,16 +49,16 @@ main {
     margin-left: 32px;
 }
 
-.mobile-menu div {
+.menu div {
     position: relative;
-    left: 600px;
+    left: 700px;
     width: 32px;
     height: 2px;
     background: #fff;
     margin: 8px;
 }
 
-.mobile-menu {
+.menu {
     display: none;
     cursor: pointer;
 
@@ -81,12 +81,13 @@ main {
         transform: translateX(100%);
     }
 }
+
 .nav-list li{
     margin-left: 0;
     opacity: 0;
 
 }
-.mobile-menu {
+.menu {
     display: block;
 }
 
