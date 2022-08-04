@@ -14,7 +14,7 @@ a:hover {
 
 .logo {
     position: relative;
-    right: 210px;
+    right: 150px;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -32,10 +32,10 @@ nav {
     height: 8vh;
 }
 
-main {
-    background:  url("1658696855193a.png") no-repeat
-    center center;
-    background-size: cover;
+main { 
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
     height: 92vh;
 }
 
@@ -65,9 +65,7 @@ main {
 }
 
 @media (max-width: 999px) {
-    body {
-        overflow-x: hidden;
-    }
+
     .nav-list {
         position: absolute;
         top: 8vh;
@@ -98,7 +96,22 @@ main {
 
 .logobaguncinha {
     position: relative;
-    right: 50px;
+}
 
+.logomain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
 
+#imagens {
+    width: 100%;
+    min-height: 90vh;
+}
+
+#imagens img {
+    width: 100%;
+    position: relative;
 }
