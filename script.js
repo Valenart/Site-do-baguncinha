@@ -1,16 +1,16 @@
-const imgs = document.getElementById("imagens");
-const imagens = document.querySelectorAll("#imagens imagens");
+const imgs = document.getElementById("img");
+const img = document.querySelectorAll("#img img");
 
 let idx = 0;
 
-function carroseldefotos(){
+function carrossel(){
     idx++;
 
-    if(idx > imagens.length -1){
+    if(idx > img.length -1){
         idx = 0;
     }
 
-    imgs.style.transform = "translateX()";
+    imgs.style.transform = 'translateX()';
 }
 
-setInterval(carroseldefotos, 1800);
+setInterval(carrossel, 1800);

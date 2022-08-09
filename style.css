@@ -19,7 +19,6 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-left: 50px;
-
 }
 
 nav {
@@ -61,7 +60,10 @@ main {
 .menu {
     display: none;
     cursor: pointer;
+}
 
+.menu {
+    display: block;
 }
 
 @media (max-width: 999px) {
@@ -83,15 +85,10 @@ main {
 .nav-list li{
     margin-left: 0;
     opacity: 0;
-
-}
-.menu {
-    display: block;
 }
 
 .nav-list.active {
     transform: translate(0);
-
 }
 
 .logobaguncinha {
